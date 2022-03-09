@@ -168,16 +168,108 @@ body {
   background-color: #ffffff;
 }
 
+#beneficios {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: #140e3a;
+  height: 650px;
+}
+
+.beneficios-geral {
+  display: flex;
+  width: 999px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
+
+#beneficios-title h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  color: #ffffff;
+  font-size: 2rem;
+  background: #140e3a;
+}
+
+.negociacao {
+  border-radius: 8px;
+  padding: 20px;
+  width: 275px;
+  height: 190px;
+  border: 2px solid #1c51ff;
+  color: #ffffff;
+}
+
+.texto-copy {
+  border-radius: 8px;
+  padding: 20px;
+  width: 275px;
+  height: 190px;
+  border: 2px solid #1c51ff;
+  color: #ffffff;
+}
+.design {
+  border-radius: 8px;
+  padding: 20px;
+  width: 275px;
+  height: 190px;
+  border: 2px solid #1c51ff;
+  color: #ffffff;
+}
+
+.apresentacao {
+  border-radius: 8px;
+  padding: 20px;
+  width: 275px;
+  height: 190px;
+  border: 2px solid #1c51ff;
+  color: #ffffff;
+}
+
+.site-aprovado {
+  border-radius: 8px;
+  padding: 20px;
+  width: 275px;
+  height: 190px;
+  border: 2px solid #1c51ff;
+  color: #ffffff;
+}
+.site-publicado {
+  border-radius: 8px;
+  padding: 20px;
+  width: 275px;
+  height: 190px;
+  border: 2px solid #1c51ff;
+  color: #ffffff;
+}
+
+.title-beneficios {
+  display: flex;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.text-beneficios {
+  font-size: 0.875rem;
+  line-height: 22px;
+}
+
 footer {
   display: flex;
   align-items: center;
   padding-left: 150px;
   height: 70px;
-  background-color: #140e3a;
+  background-color: #050023;
 }
 
 .copy {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 0.875rem;
   padding: 20px;
 }
